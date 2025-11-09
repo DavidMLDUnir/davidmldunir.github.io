@@ -1,0 +1,160 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #9bf0c7;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  margin-bottom:40px;
+  margin-top: 65px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.Header_box {
+  border-radius: 20px;
+  position: relative;
+  background-image: url('https://www.teknofilo.com/wp-content/uploads/2023/06/Microsoft_Nostalgic_Windows_Wallpaper_4k-scaled.jpg');
+  background-size: cover;
+  background-position: center; 
+  height: 250px;
+  text-align: right;
+  padding: 10px 100px;
+}
+
+.Post_align {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap; 
+  padding: 40px;
+}
+
+.post1 {
+  background-color: #589aaa;
+  width: 400px;
+  border-style: dotted;
+  border-radius: 10px;
+  border-color: #e48117;
+  box-shadow: 0 10px 16px #333;
+  overflow: hidden;
+  padding: 10px;
+  color: #fff;
+  text-align: justify;
+}
+
+.post1:hover{
+  background-color: #e77b08;  
+  transform: scale(1.1);
+}
+
+.post1 img {
+  border-radius: 10px;  
+  margin: 10px;
+  width: 95%;
+  height:auto
+}
+
+.post1 h2{
+  text-align: center;
+}
+
+.post2 {
+  background-color: #149bbd;
+  width: 400px;
+  border-style: ridge;
+  border-color: #3535c2;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 10px 16px #333;
+  overflow: hidden;
+  padding: 10px;
+  color: #fff;
+}
+
+.post2:hover{
+  background-color: #08e7e3;  
+  transform: scale(1.1);
+}
+
+.post2 img {
+  border-radius: 10px;  
+  margin: 10px;
+  width: 95%;
+  height:auto
+}
+
+.post3 {
+  background-color: #08628b;
+  width: 400px;
+  border-style: inset;
+  border-radius: 10px;
+  border-color: #f2d231;
+  box-shadow: 0 10px 16px #333;
+  overflow: hidden;
+  padding: 10px;
+  color: #fff;
+  text-align: justify;
+}
+
+.post3:hover{
+  background-color: #d4cd0f;  
+  transform: scale(1.1);
+}
+
+.post3 img {
+  border-radius: 10px;  
+  margin: 10px;
+  width: 95%;
+  height:auto
+}
+
+.post3 h2{
+  text-align: center;
+}
+
+button{
+  display: block;
+  margin: 10px auto 20px;
+  padding: 10px 20px;
+  background-color: #2432b0;
+  color: #fff;
+  border-style: outset;
+  border-radius: 15px;
+  border-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover{
+  background-color: #0a9784;  
+  transform: scale(1.1);
+}
+
+.Formulario{
+  border-style: solid ;
+  border-radius: 100px;
+  border-color: #108503;
+  box-shadow: 10px 10px 16px #07cb48;
+  position: relative;
+  height: 160px;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding: 10px;
+  margin: 50px;
+}
+.Formulario:hover{
+  background-color: #0a9784;  
+  transform: scale(1.05); 
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #48a0b6;
+  color: #fff;
+}

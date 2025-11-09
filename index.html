@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Actividad 1 </title>
+  <link rel="icon" type="image/x-icon" href="/Ejercicio/unir_logo.png"> 
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <div class="Header_box">
+        <h1>Blog Actividad1 Aplicaciones en Red</h1>
+        </marquee>
+        <p>Como Crear un blog con Html, Css y JavaScript</p>
+    </div>
+  </header>
+
+  <main class="Post_align">
+    <article class="post1">
+      <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_640.png" alt="Imagen del post 1">
+      <h2>HTML</h2>
+      <p class="author">Por David Mengibar - 5 de noviembre, 2025</p>
+      <p>HTML son las siglas de HyperText Markup Language (Lenguaje de Marcado de Hipertexto), y es el lenguaje de marcado estándar que se utiliza para estructurar y dar formato al contenido de una página web.</p>
+      <button onclick="AprenderHTML()">Aprender mas</button>
+    </article>
+
+    <article class="post2"> 
+      <h2>CSS</h2>
+      <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="Imagen del post 2"> 
+      <p class="author">Por David Mengibar - 6 de noviembre, 2025</p>
+      <p>CSS son las siglas de Hojas de Estilo en Cascada (del inglés Cascading Style Sheets), un lenguaje utilizado para dar estilo y definir la apariencia de los documentos web, principalmente los escritos en HTML.</p>
+      <button onclick="AprenderCSS()">Aprender mas</button>
+    </article>
+
+    <article class="post3">
+      <img src="https://cdn.pixabay.com/photo/2024/01/31/04/37/javascript-8543231_1280.png" alt="Imagen del post 3">  
+      <h2>JavaScript</h2>
+      <p class="author">Por David Mengibar - 7 de noviembre, 2025</p>
+      <p>JavaScript es un lenguaje de programación interpretado que se utiliza principalmente para crear páginas web interactivas y dinámicas.</p>
+      <button onclick="AprenderJS()">Aprender mas</button>
+    </article>
+
+  </main>
+
+    <section class="Formulario" id="contacto">
+        <h2>Inscribete a la Newsletter</h2>
+        <form id="form-contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    <p id="feedback"></p>
+    </section>
+
+  <footer>
+    <p>© 2025 Blog Aplicaciones en Red - David Mengibar López-Duque</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
